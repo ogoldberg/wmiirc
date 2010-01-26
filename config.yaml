@@ -11,11 +11,11 @@ import:
   - display/status/system/loadavg
   - display/status/time
   - control/mouse
-  - control/keyboard/dvorak
+  - control/keyboard/nate
 
 prefer:
-  terminal: xterm
-  browser: chromium-browser
+  terminal: urxvt
+  browser: firefox
   editor: gvim
   filer: thunar
 
