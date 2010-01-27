@@ -26,7 +26,7 @@ display:
   column:
     mode: default
     rule: |
-      /.*/ -> 50+50
+      /.*/ -> 53+47
   client:
     - /\b(xconsole|alsamixer|XMMS|Sonata)\b/  : 1
     - /^chrome:Chrome:Untitled/               : mail
