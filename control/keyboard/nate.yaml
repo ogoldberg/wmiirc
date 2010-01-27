@@ -10,10 +10,10 @@ control:
     #
     mod:     Mod1
     move:    Mod1-Shift
-    swap:    Mod1-w
+    swap:    Mod1-r
     view:    Mod1-Shift-v
-    group:   Mod1-g
-    layout:  Mod1-z
+    group:   Mod1-z
+    layout:  Mod1-g
     arrange: Mod1-Shift-z
 
     ##
