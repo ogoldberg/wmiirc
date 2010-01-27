@@ -227,7 +227,7 @@ control:
     #-------------------------------------------------------------------------
 
     ${mod}-a: run_action_from_menu
-    ${mod}-p: run_program_from_menu
+    ${mod}-n: run_program_from_menu
     ${mod}-t: focus_view_from_menu
     ${mod}-c: focus_client_from_menu
 
@@ -235,9 +235,9 @@ control:
     # launch
     #-------------------------------------------------------------------------
 
-    ${mod}-x: launch_terminal
-    ${mod}-i: launch_browser
-    ${mod}-m: launch_filer
+    ${mod}-u: launch_terminal
+    ${mod}-apostrophe: launch_browser
+    # ${mod}-m: launch_filer
     ${mod}-e: launch_editor
 
 
