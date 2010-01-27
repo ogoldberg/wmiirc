@@ -27,8 +27,8 @@ control:
     ##
     # Sequence keys.
     #
-    prev: b
-    next: n
+    prev: comma
+    next: period
 
   keyboard_action:
 
