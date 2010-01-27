@@ -137,7 +137,7 @@ control:
     #-------------------------------------------------------------------------
 
     ${mod}-m: client_fullscreen_toggle
-    ${mod}-Shift-c: kill_current_client
+    ${mod}-w: kill_current_client
 
     #-------------------------------------------------------------------------
     # column
