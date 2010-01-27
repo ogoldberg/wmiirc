@@ -180,7 +180,7 @@ control:
     # arrange
     #-------------------------------------------------------------------------
 
-    ${layout},t: arrange_current_view_like_LarsWM
+    ${layout},l: arrange_current_view_like_LarsWM
     ${layout},g: arrange_current_view_in_grid
     ${layout},s: arrange_current_view_in_stacks_2
     ${layout},d: arrange_current_view_in_diamond
