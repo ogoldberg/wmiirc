@@ -168,8 +168,8 @@ control:
     # detach
     #-------------------------------------------------------------------------
 
-    ${mod}-d: detach_grouping
-    ${mod}-Shift-d: attach_most_recently_detached_client
+    ${mod}-minus: detach_grouping
+    ${mod}-bracketleft: attach_most_recently_detached_client
 
     #-------------------------------------------------------------------------
     # zoom
