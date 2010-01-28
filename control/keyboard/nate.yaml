@@ -140,6 +140,13 @@ control:
     # Invite client to current tag
     ${mod}-i: invite_client_from_menu
 
+    # Show this client in the other tags that
+    # it belongs to (if any)
+    ${mod}-Tab: focus_clients_other_tags
+
+    # Add this client to a tag from a prompt menu
+    ${mod}-equal: add_current_client_to_tag
+
     #-------------------------------------------------------------------------
     # column
     #-------------------------------------------------------------------------

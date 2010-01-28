@@ -86,6 +86,17 @@ control:
     focus_most_recently_focused_view: |
       $last_view.focus if $last_view
 
+    # Show this client in the other tags
+    # that the current client belongs to.
+    focus_clients_other_tags: | 
+      $cycled_client = curr_client
+      pos = curr_client.tags.index(curr_tag)
+      if curr_client.tags[pos + 1]                    
+        focus_view curr_client.tags[pos + 1]
+      else
+        focus_view curr_client.tags[0]
+      end
+
     # focus the view whose index or name equals the pressed number
     focus_view_1:  focus_view tags[0] || 1
     focus_view_2:  focus_view tags[1] || 2
