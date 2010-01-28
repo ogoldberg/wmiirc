@@ -137,6 +137,9 @@ control:
     ${mod}-m: client_fullscreen_toggle
     ${mod}-w: kill_current_client
 
+    # Invite client to current tag
+    ${mod}-i: invite_client_from_menu
+
     #-------------------------------------------------------------------------
     # column
     #-------------------------------------------------------------------------
