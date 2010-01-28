@@ -228,6 +228,11 @@ control:
 
     kill_current_client: curr_client.kill
 
+    add_current_client_to_tag: |
+      if choice = key_menu(tags, 'Add client to tag:')
+        curr_client.tag choice
+      end
+
     #-------------------------------------------------------------------------
     # column
     #-------------------------------------------------------------------------
