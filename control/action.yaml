@@ -1,6 +1,6 @@
 script:
   - before: |
-      DETACHED_TAG  = '|'
+      DETACHED_TAG  = '?'
       ZOOMED_SUFFIX = /~(\d+)$/
 
       # keep track of most recently focused view
@@ -426,6 +426,11 @@ control:
       if client = client_menu('show client:')
         client.focus
       end
+
+    # Show a list of clients, and if user selects one,
+    # tag it w/same tag as current view
+    invite_client_from_menu: |
+      client = client_menu('invite client:') and client.tag curr_tag
 
     launch_terminal: |
       #
