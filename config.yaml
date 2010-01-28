@@ -21,7 +21,9 @@ prefer:
 
 display:
   bar: bottom
-  font: "-*-fixed-medium-r-*-*-18-*-*-*-*-*-*-*"
+  # font: -*-terminus-*-*-*-*-14-*-*-*-*-*-*-*
+  # furxvt*ont:  xft:Bitstream Vera Sans Mono:autohinting=true:size=13
+  font:      xft:Inconsolata:size=13
   border: 1
   column:
     mode: default
